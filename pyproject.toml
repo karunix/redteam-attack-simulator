@@ -1,0 +1,14 @@
+[project]
+name = "redteam-attack-simulator"
+version = "0.1.0"
+description = "Red team attack simulation toolkit"
+authors = [{ name = "Karunix" }]
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-ra -q"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
